@@ -1,0 +1,6 @@
+# Biner + objek hasil build
+pid-sim
+test_pid
+src/*.o
+# Output sementara (contoh yang digenerate ulang ada di examples/)
+*.tmp
