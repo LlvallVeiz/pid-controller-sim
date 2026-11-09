@@ -1,0 +1,10 @@
+PID motor DC — Kp=100.00 Ki=0.00 Kd=0.00 | setpoint=1.000 rad/s | durasi=4.00 s dt=0.0010 s | vmax=0.0 V | turunan pada pengukuran
+Step-response metrics (setpoint 1.000 rad/s, durasi 4.00 s)
+  Overshoot          :   13.87 %
+  Rise time (10-90%) :   0.110 s
+  Settling time (2%)  :   4.000 s
+  Steady-state error :  0.0910 rad/s (9.10 %)
+  Nilai akhir        :  0.9090 rad/s (puncak 1.1387 rad/s @ 0.231 s)
+  IAE                :  0.4420 rad.s
+  |V| maks           :   99.99 V (jenuh 0.0 % sampel)
+CSV ditulis: examples/p_only_nosat.csv (4001 sampel)

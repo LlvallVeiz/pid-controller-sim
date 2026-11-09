@@ -1,0 +1,6 @@
+Identifikasi kurva reaksi (step open-loop 5 V, 5 s):
+  Gain DC K = 0.0999 rad/s per V
+  Lag semu L = 0.0535 s, konstanta waktu T = 0.7470 s
+  Titik belok @ 0.2010 s
+  Z-N PID: Kp=167.74 Ki=1567.88 Kd=4.49
+  Z-N PI : Kp=125.81 Ki=705.54 Kd=0.00

@@ -1,0 +1,38 @@
+Identifikasi kurva reaksi (step open-loop 5 V, 5 s):
+  Gain DC K = 0.0999 rad/s per V
+  Lag semu L = 0.0535 s, konstanta waktu T = 0.7470 s
+  Titik belok @ 0.2010 s
+  Z-N PID: Kp=167.74 Ki=1567.88 Kd=4.49
+  Z-N PI : Kp=125.81 Ki=705.54 Kd=0.00
+PID motor DC — Kp=167.74 Ki=1567.88 Kd=4.49 | setpoint=1.000 rad/s | durasi=4.00 s dt=0.0010 s | vmax=12.0 V | turunan pada pengukuran
+Step-response metrics (setpoint 1.000 rad/s, durasi 4.00 s)
+  Overshoot          :    0.59 %
+  Rise time (10-90%) :   0.692 s
+  Settling time (2%)  :   0.962 s
+  Steady-state error :  0.0000 rad/s (0.00 %)
+  Nilai akhir        :  1.0000 rad/s (puncak 1.0059 rad/s @ 1.093 s)
+  IAE                :  0.4203 rad.s
+  |V| maks           :   12.00 V (jenuh 22.8 % sampel)
+CSV ditulis: examples/zn.csv (4001 sampel)
+
+ASCII plot: kecepatan (rad/s) vs waktu (s), '-' = setpoint 1 rad/s
+  1.01 |---------------*******************************************************|
+  0.95 |             ***                                                      |
+  0.89 |            **                                                        |
+  0.83 |          ***                                                         |
+  0.77 |         **                                                           |
+  0.71 |        **                                                            |
+  0.65 |       **                                                             |
+  0.59 |      **                                                              |
+  0.53 |      *                                                               |
+  0.47 |     **                                                               |
+  0.41 |    **                                                                |
+  0.36 |    *                                                                 |
+  0.30 |   **                                                                 |
+  0.24 |  **                                                                  |
+  0.18 |  *                                                                   |
+  0.12 | **                                                                   |
+  0.06 |**                                                                    |
+  0.00 |*                                                                     |
+       +----------------------------------------------------------------------+
+       0                                                              t = 4 s
